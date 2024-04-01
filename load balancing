@@ -1,0 +1,47 @@
+Load balancing:	
+distribute the traffic from user to backend servers
+
+Health Check
+Periodic test performed by load balancer to check availability and performance of backend servers.
+
+Session persistence:
+Technique that ensures the subsequent requests from same client are sent to the same backend server and maintains the session state, providing consistent user experience.
+
+Load balancer can perform decrypting of SSL/TLS-encrypted traffic at the load balancer lavel, and offloads burden from backend servers and allows centralized SSL/TLS management.
+
+SSL- secure sockey layer
+TLS- Transport level security
+
+How SSL/TLS works?
+-> handshake process
+-> certificate validation
+-> key exchange
+-> symmetric encryption
+-> Data integrity
+
+
+
+
+How the load balancer works?
+
+Uses of Load Balancing
+-> Improving website performance
+
+Ensuring high availability and reliability
+
+Scalability
+Redundency
+Network optimization
+Geographic distribution
+Application performance
+Security
+Cost saving
+Contents caching
+
+Load balancing techniques:
+
+Round Robin
+Least Connections
+Weighted Round Robin
+Weighted Least Connections
+IP hashing
